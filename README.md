@@ -17,4 +17,4 @@ The Proffy project belongs to NLW#2 course by Rockeseat.
 This project is under the MIT license. See the [LICENSE](https://github.com/amagalhaes31/nlw_02_proffy/blob/master/LICENSE) for details.
 
 ## Contact
-Made with by [Alexandre Magalhães](https://www.linkedin.com/in/alexandre-magalh%C3%A3es-1919a68b/)!
+Made by [Alexandre Magalhães](https://www.linkedin.com/in/alexandre-magalh%C3%A3es-1919a68b/)!
