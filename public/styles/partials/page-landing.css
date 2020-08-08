@@ -23,7 +23,7 @@
 }
 
 .hero-image {
-    height: 100%;               /* The reference is container */
+    width: 100%;               /* The reference is container */
 }
 
 .buttons-container {
