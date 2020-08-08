@@ -1,7 +1,7 @@
 
 ![logo](https://github.com/amagalhaes31/nlw_02_proffy/blob/master/.github/title.png)
 
-The Proffy project belongs to NLW#2 course by Rockeseat.
+Project developed during the Next Level Week #2 - Taught by [Mayk Brito](https://github.com/maykbrito) -> [Rocketseat](https://github.com/Rocketseat).
 
 ## Web Screenshot
 ![web_landing](https://github.com/amagalhaes31/nlw_02_proffy/blob/master/.github/web-landing.png)
@@ -12,6 +12,14 @@ The Proffy project belongs to NLW#2 course by Rockeseat.
 * Day 3 (05/08/2020) -> A escolha da stack
 * Day 4 (06/08/2020) -> Até 2 anos em 2 meses
 * Day 5 (07/08/2020) -> A minha extra
+
+## Technologies used:
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Nunjucks
+* SQLite
 
 ## License
 This project is under the MIT license. See the [LICENSE](https://github.com/amagalhaes31/nlw_02_proffy/blob/master/LICENSE) for details.
