@@ -28,7 +28,20 @@ Database.then(async (db) => {
         }
     ]
 
-    await createProffy(db, {proffyValue, classValue, classScheduleValues})
+    //await createProffy(db, {proffyValue, classValue, classScheduleValues})
 
     // Consultar os dados inseridos
+    // Proffys
+    const selectedProffys = await db.all("SELECT * FROM proffys")
+    
+    // Consultar as classes de um determinado professor
+    // e trazer junto os dados do professor
+    const selectedClassesAndProffsys = await db.all (`
+        SELECT classes.*, proffys.* 
+        FROM proffys 
+        JOIN classes ON (classes.proffy_id = proffys.id) 
+        WHERE classes.proffy_id = 1;
+    `)
+
+    console.log(selectedClassesAndProffsys)
 })
