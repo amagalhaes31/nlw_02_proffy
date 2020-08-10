@@ -5,7 +5,7 @@ function execute(db){
     return db.exec(`
         CREATE TABLE IF NOT EXISTS proffys (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name Text,
+            name TEXT,
             avatar TEXT,
             whatsapp TEXT,
             bio TEXT
@@ -13,7 +13,7 @@ function execute(db){
 
         CREATE TABLE IF NOT EXISTS classes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            subject Text,
+            subject INTEGER,
             cost TEXT,
             proffy_id INTEGER           
         );
